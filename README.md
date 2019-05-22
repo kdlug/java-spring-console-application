@@ -1,5 +1,11 @@
 # Command Line Application
 
+## How to run
+
+```bash
+/gradlew bootRun -Pargs=--spring.main.banner-mode=off,--customArgument=yrdyii,--dateFrom=2018-07-01,--dateTo=2018-08-02
+```
+
 Spring Boot provides two interfaces, CommandLineRunner and ApplicationRunner to run some logic after the application context is loaded.
 
 ## CommandLineRunner
